@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1e1e1e;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+.titulo {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+   
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+}
+
+.button{
+    background: #b32114;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+
+.button:hover{
+    background: #fff;
+
+}
